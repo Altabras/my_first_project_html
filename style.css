@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    margin: 0;
+}
+
+
+/*-------------------------HEADER-------------------------------------- */
+
+.first-page {
+    height: 90vh;
+    width: 100vw;
+    background: #19191B;
+
+
+
+
+
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.header-menu {
+    display: flex;
+}
+
+.p-header {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    margin: 50px;
+    margin-top: 40px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.logo {
+    color: #fff;
+    font-size: 28px;
+    display: flex;
+
+
+}
+
+.logo>span{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.logo>img {
+    width: 40px;
+    height: 40px;
+
+}
+
+.header-butt {
+    width: 157px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    background: #19191B;
+    backdrop-filter: blur(1px);
+    color: white;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/*-------------------------Main on Header-------------------------------------- */
+
+
+.main-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h1-main {
+    color: #FFF;
+
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 84px;
+}
+
+.p-main{
+    color: rgba(255, 255, 255, 0.70);
+
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px; /* 185.714% */
+    letter-spacing: -0.657px;
+}
+
+
+.main-img{
+
+    width: 656px;
+    height: 713px;
+    flex-shrink: 0;
+}
+
+.main-butt {
+    width: 204px;
+    height: 58px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #5454D4;
+    color: #FFF;
+
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+
+
